@@ -1,38 +1,87 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #95b9c9;
+}
+h1 {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  color: black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  width: 80%;
+  margin: 0 auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#header {
+  padding: 10px 0;
+  background-color: white;
+}
+.header {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.header nav {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#admin,
+#edit {
+  padding: 20px 0;
+}
+.admin,
+.edit {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+.admin input,
+.edit input {
+  padding-left: 20px;
+  width: 549px;
+  height: 57px;
+  border-radius: 10px;
+  background: #d9d9d9;
+  border: none;
+  font-size: 17px;
+}
+.admin button,
+.edit button {
+  width: 254.1px;
+  height: 60px;
+  border-radius: 10px;
+  background: #ddaa27;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  border: none;
+}
+#menu {
+  padding: 20px 0;
+}
+h1 {
+  color: #33332d;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 3.2px;
+  margin-bottom: 30px;
+}
+.menu {
+  gap: 70px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: yellowgreen; */
+}
+button {
+  background-color: #fff;
+  border: none;
 }
